@@ -1,0 +1,45 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+}
+.hero .overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.about, .team, .goals, .contact {
+    padding: 40px;
+}
+.about-content, .team-gallery, .goals-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.team-member, .goal-text {
+    flex: 1 1 30%;
+}
+.goal-dark {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li {
+    margin-bottom: 5px;
+}
