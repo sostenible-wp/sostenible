@@ -78,7 +78,7 @@
         <li>🔗 www.Repsol.com</li>
         <li>▶ Repsol Innova</li>
       </ul>
-      <img src="images/chica-contacto.png" alt="Contacto"/>
+
     </div>
   </section>
 </body>
