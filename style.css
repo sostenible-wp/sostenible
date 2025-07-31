@@ -1,87 +1,26 @@
-/* Reset básico */
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #f2fdf6;
-  color: #222;
 }
 
-/* Secciones */
 .seccion {
-  padding: 60px 20px;
+  padding: 40px;
   text-align: center;
 }
 
-.seccion h2 {
-  font-size: 2.2rem;
-  margin-bottom: 20px;
-  color: #228b22;
-}
-
-.seccion p {
-  max-width: 700px;
-  margin: 0 auto;
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-
-/* Inicio */
-.inicio {
-  position: relative;
-  color: white;
-  padding: 0;
-}
-
-.inicio img {
-  width: 100%;
-  height: 80vh;
-  object-fit: cover;
-  filter: brightness(0.6);
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .inicio h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3rem;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 5px #000;
-  max-width: 90%;
-  text-align: center;
-}
-
-/* Imágenes en secciones */
-.seccion img {
-  max-width: 90%;
-  height: auto;
+  font-size: 2rem;
   margin-top: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Footer */
-.footer {
-  background-color: #e8f5e9;
-  padding: 30px;
-  text-align: center;
-}
-
-.footer img {
-  max-width: 180px;
-  height: auto;
-  opacity: 0.8;
-  transition: transform 0.3s;
-}
-
-.footer img:hover {
-  transform: scale(1.05);
-  opacity: 1;
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
 }
