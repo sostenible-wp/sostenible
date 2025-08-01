@@ -1,10 +1,10 @@
 Sostenible/
-├── índice.html
-├── estilo.css
-└── imágenes/
-    ├── imagen-portada.png
-    ├── contacto-digital.png
-    ├── logo.jpg
-    ├── metas-energia.png
-    └── equipo.png
-
+├── index.html
+├── css/
+│   └── estilo.css
+├── img/
+│   ├── portada-eolica.png       ← (abanico eólico)
+│   ├── equipo.png
+│   ├── metas-energia.png
+│   ├── contacto-digital.png
+│   └── logo.png
