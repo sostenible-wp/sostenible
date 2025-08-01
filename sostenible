@@ -1,0 +1,12 @@
+/sostenible-wp      ← Carpeta raíz del proyecto (donde está tu repositorio)
+│
+├── index.html      ← Aquí está tu archivo HTML
+├── style.css       ← Aquí está tu archivo CSS
+├── img             ← Carpeta para tus imágenes
+│     ├── logo.png
+│     ├── portada-eolica.png
+│     ├── equipo.png
+│     ├── metas-energia.png
+│     └── contacto-digital.png
+└── css             ← Si quieres, aquí está tu CSS, si no está en raíz
+      └── estilo.css
