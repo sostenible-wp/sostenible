@@ -1,62 +1,58 @@
-/* Estilo para el header fijo con el logo */
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fuente y color general */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Encabezado */
 .header {
-  position: fixed;
-  top: 0;
-  width: 100%;
   background-color: #ffffff;
-  padding: 10px 0;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
+  padding: 20px 0;
+  border-bottom: 2px solid #e0e0e0;
 }
 
 .header img {
-  width: 150px;
+  max-width: 200px;
   height: auto;
 }
 
-/* General para todas las secciones */
+/* Secciones */
 .seccion {
-  padding: 100px 20px 40px;
+  padding: 40px 0;
   text-align: center;
-  background-color: #f9f9f9;
-  margin-bottom: 20px;
 }
 
+.seccion h1,
 .seccion h2 {
-  font-size: 28px;
+  color: #2c3e50;
   margin-bottom: 20px;
-  color: #333;
 }
 
 .seccion p {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
-  color: #555;
   font-size: 18px;
 }
 
-/* Imagen destacada de portada */
-.imagen-portada {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-bottom: 20px;
-}
-
-/* Imágenes de secciones */
-.imagen-equipo {
-  width: 300px;
-  max-width: 90%;
+/* Imágenes de contenido */
+.seccion img {
+  max-width: 100%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  margin: 20px 0;
-  transition: transform 0.3s ease;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.imagen-equipo:hover {
-  transform: scale(1.05);
-}
-
+/* Estilo específico para portada */
+.imagen-portada
